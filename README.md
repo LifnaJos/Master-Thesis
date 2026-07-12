@@ -10,32 +10,49 @@
 
 #### Step 1: Data Gathering
    a. Downloading Tweets from @shaktivahini
+   
    b. Expanding tinyURLs
+   
    c. Crawling webpages associated with expanded tinyURLs
 
 #### Step 2: Data Cleansing
    a. Cleansing raw tweets
+   
    b. Cleansing expanded tinyURLs
+   
    c. Cleansing crawled webpages of expanded tinyURLs
+   
    d. Merging the three  tweet components
+   
       (i) merge all the url files into a single file
+      
       (ii)merge tweets with urls
+      
    e. Cleaning fully expanded tweets
 
 #### Step 3: Grouping concepts into 13 subdomains
    a. identify unique concepts
+   
    b. group unique concepts into 13 subdomains manually
+   
    c. replace the concepts with corresponding subdomain.
    
 #### Step 4: Mining Association Rules from refined sample dataset
    a. Support-Confidence Framework (SC)
+   
    b. Augmented Support-Confidence Framework with all_confidence correlation measure (ASC)
+   
    c. Temporal Weighted Utility Association Rule Mining  (TWUARM)
 
 #### Step 5. Data Visualization
    a. Combine all the charts
-   b. Plot the graphs for varying support values
+   
+   b. Plot the graphs for varying support values 
+   
       (support = 35,45,55,65,75,85,95)
+      
       confidence = .85
+      
       all_confidence = .90
+      
       wt_threshold = 20.0
